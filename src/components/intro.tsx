@@ -11,7 +11,7 @@ const Intro: React.FC = () => {
         >
             <div>
                 <Image
-                    src="/../image.jpeg"
+                    src="/../image.png"
                     alt="Profile"
                     width={300}
                     height={300}

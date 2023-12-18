@@ -18,7 +18,7 @@ const About: React.FC = () => {
 
                 <div className="flex flex-col justify-center items-center text-center">
                 <Image
-                    src="/../image.jpeg"
+                    src="/../image.png"
                     alt="Profile"
                     width={300}
                     height={300}

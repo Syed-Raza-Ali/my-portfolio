@@ -4,7 +4,7 @@ import Link from "next/link"
 const Footer: React.FC = () => {
     return (
 
-        <div className="flex justify-center h-32 w-full items-center text-center mt-3 shadow-black shadow-2xl break-words flex-wrap ">
+        <div className="flex justify-center h-24 w-full items-center text-center mt-3 shadow-black shadow-2xl break-words flex-wrap ">
 
             <div className="md:flex inline-block md:mb-3 gap-x-4 mt-4 justify-center items-center">
 

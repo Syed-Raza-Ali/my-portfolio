@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     const [navItem, showNavItems] = useState<boolean>(false)
 
     return (
-        <header className="bg-white p-6 justify-between w-full shadow-xl fixed top-0 md:flex">
+        <header className="bg-white p-6 justify-between w-full shadow-xl fixed top-0 md:flex ">
             <div className="flex justify-between">
                 <h2 className="text-2xl font-bold">PORTFOLIO</h2>
                 <IoMenu

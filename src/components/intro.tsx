@@ -7,11 +7,11 @@ const Intro: React.FC = () => {
     return (
         <section
             id={headerItems.home.page}
-            className="h-screen flex flex-col md:flex-row text-center justify-center items-center md:text-start "
+            className="flex flex-col md:flex-row text-center justify-center items-center mt-20 md:text-start "
         >
             <div>
                 <Image
-                    src="/../raza.jpeg"
+                    src="/../image.jpeg"
                     alt="Profile"
                     width={300}
                     height={300}

@@ -10,7 +10,7 @@ const Main: React.FC = () => {
             < Intro />
             <About />
             <Projects />
-            
+            <Footer />
         </div>
     )
 }

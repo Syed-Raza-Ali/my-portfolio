@@ -5,7 +5,7 @@ const About: React.FC = () => {
     return (
         <section
             id={headerItems.about.page}
-            className="h-screen flex flex-col md:flex-row text-center justify-center items-center  md:text-start my-20"
+            className="flex flex-col md:flex-row text-center justify-center items-center  md:text-start my-32"
         >
             
             <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 ">
@@ -18,7 +18,7 @@ const About: React.FC = () => {
 
                 <div className="flex flex-col justify-center items-center text-center">
                 <Image
-                    src="/../raza.jpeg"
+                    src="/../image.jpeg"
                     alt="Profile"
                     width={300}
                     height={300}

@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Footer from "@/components/footer";
 import Main from "@/pages/Main";
 
 export default function Home() {
@@ -8,6 +7,7 @@ export default function Home() {
     
     <Header />
     <Main/>
-    <Footer />
+
+    
   </div>  
   )}

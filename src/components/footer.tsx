@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 
                 >Stay Connected :</div>
 
-                <div className="flex gap-x-5 mt-4 mb-2">
+                <div className="flex gap-x-5 mt-4 mb-2 justify-start items-center">
 
                     <div className="flex justify-center items-center w-10 h-10 rounded-full ">
                         <Link
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                         </Link>
                     </div>
                     <div
-                        className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black">
+                        className="flex justify-center items-center w-12 h-12 border border-2px rounded-full border-black">
                         <Link
                             href="https://www.linkedin.com/in/syed-raza-ali-009b802a5/">
                             <Linkedin />

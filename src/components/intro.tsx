@@ -27,7 +27,8 @@ const Intro: React.FC = () => {
                 <p
                     className="mt-4 mb-4 mx-6 md:mx-0"
                 >{userInfo.heading}</p>
-                <div className="flex  gap-x-4 mt-8 justify-center md:justify-start">
+
+                <div className="flex  gap-x-4 mt-8 justify-center items-center md:justify-start">
                 <div className="flex justify-center items-center w-10 h-10 rounded-full ">
                     <Link
                         href="https://github.com/Syed-Raza-Ali">

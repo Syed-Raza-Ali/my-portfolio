@@ -7,7 +7,7 @@ const Intro: React.FC = () => {
     return (
         <section
             id={headerItems.home.page}
-            className="flex flex-col md:flex-row text-center justify-center items-center mt-20 md:text-start "
+            className="flex flex-col md:flex-row text-center justify-center items-center mt-40 md:text-start "
         >
             <div>
                 <Image

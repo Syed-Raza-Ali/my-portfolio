@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer: React.FC = () => {
     return (
-
+<footer>
         <div className="flex justify-center  h-36 w-full items-center text-center border-t-4 break-words flex-wrap ">
 
             <div className="md:flex inline-block md:mb-3 gap-x-4 mt-4 justify-center items-center">
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             </div>
 
         </div>
-
+        </footer>
 
     )
 }

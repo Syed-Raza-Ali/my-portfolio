@@ -15,14 +15,14 @@ const Footer: React.FC = () => {
 
                 <div className="flex gap-x-5 mt-4 mb-2 justify-start items-center">
 
-                    <div className="flex justify-center items-center w-10 h-10 rounded-full ">
+                    <div className="flex justify-center items-center w-10 h-10 rounded-full bg-transparent transition-transform transform hover:scale-125">
                         <Link
                             href="https://github.com/Syed-Raza-Ali">
                             <Github />
                         </Link>
                     </div>
                     <div
-                        className="flex justify-center items-center w-12 h-12 border border-2px rounded-full border-black">
+                        className="flex justify-center items-center w-12 h-12 border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
                         <Link
                             href="https://www.linkedin.com/in/syed-raza-ali-009b802a5/">
                             <Linkedin />
@@ -30,14 +30,14 @@ const Footer: React.FC = () => {
 
                     </div>
                     <div
-                        className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black">
+                        className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
                         <Link
                             href="https://twitter.com/SYEDRAZAALI06">
                             <Twitter />
                         </Link>
 
                     </div>
-                    <div className="flex justify-center items-center w-10 h-10 rounded-full ">
+                    <div className="flex justify-center items-center w-10 h-10 rounded-full bg-transparent transition-transform transform hover:scale-125 ">
                         <Link
                             href="https://www.facebook.com/syedrazaali303?mibextid=ZbWKwL">
                             <Facebook />

@@ -6,11 +6,11 @@ const Projects: React.FC = () => {
     return (
         <section
             id={headerItems.projects.page}
-            className="flex flex-col text-center justify-center items-center my-40 mb-10 "
+            className="flex flex-col text-center justify-center items-center my-10 mb-10 h-fit "
         >
             
-             <h1 className="text-5xl my-6">Projects</h1>
-                 <div className="flex justify-center items-center text-center mt-3 break-words flex-wrap ">
+             <h1 className="text-5xl my-6 font-bold">Projects</h1>
+                 <div className="flex justify-center items-center text-center mt-3 break-words flex-wrap">
               
                
                     {

@@ -7,16 +7,17 @@ const Intro: React.FC = () => {
     return (
         <section
             id={headerItems.home.page}
-            className="flex flex-col md:flex-row text-center justify-center items-center mt-40 md:text-start "
+            className="flex flex-col md:flex-row text-center justify-center items-center mt-14 md:text-start "
         >
             <div>
+                <div className="bg-transparent transition-transform transform hover:scale-125">
                 <Image
-                    src="https://i.ibb.co/yBsrKzG/image.png"
+                    src="https://i.ibb.co/ZLWB674/profile.jpg"
                     alt="Profile"
                     width={300}
                     height={300}
                     className="rounded-full shadow-2xl mt-10"
-                />
+                /></div>
             </div>
 
             <div className="md:ml-20 sm:ml-12 md:w-1/2 ">
@@ -29,34 +30,34 @@ const Intro: React.FC = () => {
                 >{userInfo.heading}</p>
 
                 <div className="flex  gap-x-4 mt-8 justify-center items-center md:justify-start">
-                <div className="flex justify-center items-center w-10 h-10 rounded-full ">
-                    <Link
-                        href="https://github.com/Syed-Raza-Ali">
-                            <Github/>
+                    <div className="flex justify-center items-center w-10 h-10 rounded-full bg-transparent transition-transform transform hover:scale-125">
+                        <Link
+                            href="https://github.com/Syed-Raza-Ali">
+                            <Github />
                         </Link>
-                </div>
-                <div 
-                    className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black">
-                    <Link
-                        href="https://www.linkedin.com/in/syed-raza-ali-009b802a5/">
-                            <Linkedin/>
+                    </div>
+                    <div
+                        className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
+                        <Link
+                            href="https://www.linkedin.com/in/syed-raza-ali-009b802a5/">
+                            <Linkedin />
                         </Link>
-                       
-                </div>
-                <div 
-                    className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black">
-                    <Link
-                        href="https://twitter.com/SYEDRAZAALI06">
-                            <Twitter/>
+
+                    </div>
+                    <div
+                        className="flex justify-center items-center w-11 h-11 border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
+                        <Link
+                            href="https://twitter.com/SYEDRAZAALI06">
+                            <Twitter />
                         </Link>
-                       
-                </div>
-                <div className="flex justify-center items-center w-10 h-10 rounded-full ">
-                    <Link
-                        href="https://www.facebook.com/syedrazaali303?mibextid=ZbWKwL">
-                            <Facebook/>
+
+                    </div>
+                    <div className="flex justify-center items-center w-10 h-10 rounded-full bg-transparent transition-transform transform hover:scale-125">
+                        <Link
+                            href="https://www.facebook.com/syedrazaali303?mibextid=ZbWKwL">
+                            <Facebook />
                         </Link>
-                </div>
+                    </div>
                 </div>
             </div>
         </section>

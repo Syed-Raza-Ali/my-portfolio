@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
             className="flex flex-col text-center justify-center items-center my-40 mb-10 "
         >
 
-            <h1 className="text-5xl my-6">Projects</h1>
+            <h1 className="text-5xl my-6 font-bold">Projects</h1>
             <div className="flex justify-center items-center text-center mt-3 break-words flex-wrap ">
 
 

@@ -9,7 +9,7 @@ const About: React.FC = () => {
         >
             
             <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 ">
-                <h1 className="text-5xl my-6 ">About</h1>
+                <h1 className="text-5xl my-6 font-bold">About</h1>
                 <h2 className="text-3xl my-4 ">Get to know me! </h2>
                 <p
                 className="mt-4 mb-4 mx-6 md:mx-0"> {userInfo.about}</p>

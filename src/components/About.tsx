@@ -23,7 +23,7 @@ const About: React.FC = () => {
                         alt="Profile"
                         width={300}
                         height={300}
-                        className="m-auto mb-7"
+                        className="m-auto mb-7 mt-20 "
                     /></div>
                 <div className="mt-3 w-3/4 break-words">
                     {

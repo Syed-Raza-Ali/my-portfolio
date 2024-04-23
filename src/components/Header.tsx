@@ -11,11 +11,11 @@ const Header: React.FC = () => {
 
     return (
         <header className="bg-white p-6 justify-between w-full items-center border-b-4 h-28 top-0 md:flex ">
-            <div className="flex justify-between">
-              <Link href='/'>  <h2 className="text-4xl font-bold bg-transparent transition-transform transform hover:scale-110">PORTFOLIO</h2> </Link>
+            <div className="flex justify-between bg-transparent transition-transform transform hover:scale-110 ">
+                <Link href='/'>  <h2 className="text-4xl font-bold ">PORTFOLIO</h2> </Link>
                 <IoMenu
                     size={30}
-                    className="md:hidden"
+                    className="md:hidden "
                     onClick={() => showNavItems(prevState => !prevState)}
 
                 />

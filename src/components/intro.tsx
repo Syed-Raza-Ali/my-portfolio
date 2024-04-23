@@ -7,15 +7,15 @@ const Intro: React.FC = () => {
     return (
         <section
             id={headerItems.home.page}
-            className="flex flex-col md:flex-row text-center justify-center items-center mt-14 md:text-start "
+            className="flex flex-col md:flex-row text-center justify-center items-center mt-1 md:text-start "
         >
             <div>
                 <div className="bg-transparent transition-transform transform hover:scale-125">
                 <Image
-                    src="https://i.ibb.co/ZLWB674/profile.jpg"
+                    src="https://i.ibb.co/x56716R/Whats-App-Image-2024-04-13-at-1-32-46-AM.png"
                     alt="Profile"
-                    width={300}
-                    height={300}
+                    width={400}
+                    height={400}
                     className="rounded-full shadow-2xl mt-10"
                 /></div>
             </div>

@@ -3,10 +3,10 @@ import { UserItems, NavItems } from "@/models/Interfaces"
 
 export const userInfo: UserItems = {
     name: "SYED RAZA ALI ",
-    heading: "Hello! I'm Syed Raza Ali, a beginner in web development.I've been learning the ropes for about one year now, and I'm excited to introduce you to my world through this website.",
+    heading: 
+    "Welcome to my digital space! I'm Syed Raza Ali, a newcomer to web development. Over the past year, I've delved deep into this captivating field, soaking up knowledge and refining my skills. Now, I'm excited to share my journey and creations with you on this website. Join me for an interactive exploration of the digital world!",
     about: `
-        I am a passionate Software Engineer with a strong background in Web Development, I have been crafting digital experiences for 1 years.
-        My journey in IT began in 2022 since then, this site is my way of sharing what I've been up to in the software engineering realm. Think of it as a virtual space where I've put together bits of code and creativity to create something cool. It's not just a website; it's a reflection of my journey into the exciting world of making things work on the computer.
+    As a web & chatbot developer, I blend JavaScript, TypeScript, and HTML expertise. Specializing in Next.js, Tailwind CSS, and utilizing authentication protocols like Next-auth, I ensure secure user interactions. I'm proficient in integrating with various chatbot platforms like Dialogflow, Kommunicate, and Flowise AI. My database proficiency involves SQL and Sanity for robust data management and SEO-friendly content. A top-tier developer with a versatile skill set, I create memorable and optimized web experiences
         `,
     skills: ['React js', 'SEO', 'JavaScript' , 'HTML', 'Tailwind CSS' , 'Python','AI Chatbot', "Databases", "API's"],
 }

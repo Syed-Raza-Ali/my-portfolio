@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
         >
 
             <h1 className="text-5xl my-6 font-bold">Projects</h1>
-            <div className="flex justify-center items-center text-center mt-3 break-words flex-wrap ">
+            <div className="flex justify-center items-center text-center mt-3 break-words gap-3 flex-wrap ">
 
 
                 {
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
                             alt=""
                             width={300}
                             height={300}
-                            className=" mt-4 p-2 bg-transparent transition-transform transform hover:scale-125" />
+                            className=" mt-4 p-2 shadow-lg shadow-black bg-transparent transition-transform transform hover:scale-125 cursor-pointer" />
                     ))
                 }
 

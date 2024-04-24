@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                             </Link>
                         </div>
                         <div
-                            className="flex justify-center items-center w-12 h-12 border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
+                            className="flex justify-center items-center w-12 h-12 shadow-lg border border-2px rounded-full border-black bg-transparent transition-transform transform hover:scale-125">
                             <Link
                                 href="https://www.linkedin.com/in/syed-raza-ali-009b802a5/">
                                 <Linkedin />

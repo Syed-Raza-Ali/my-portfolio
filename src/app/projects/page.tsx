@@ -1,5 +1,5 @@
 import { headerItems, userInfo, projects } from "@/constants/constant"
-import { Projects } from "@/models/Interfaces"
+import type { Projects } from "@/models/Interfaces"
 import Image from "next/image"
 
 const Projects: React.FC = () => {
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
                             alt=""
                             width={300}
                             height={300}
-                            className=" mt-4 p-2 bg-transparent transition-transform transform hover:scale-125"/>
+                            className="mt-4 p-2 shadow-lg shadow-black bg-transparent transition-transform transform hover:scale-125 cursor-pointer"/>
                         ))
                     }
                 

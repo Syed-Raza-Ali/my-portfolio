@@ -9,7 +9,6 @@ const About: React.FC = () => {
         >
 
             <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 ">
-                {/* <h1 className="text-5xl my-6 font-bold">About</h1> */}
                 <h1 className="text-5xl my-6 font-bold">Get to know me!</h1>
                 <p className="mt-8 mb-4 mx-6 md:mx-0">
 
@@ -37,7 +36,7 @@ const About: React.FC = () => {
                         alt="Profile"
                         width={400}
                         height={400}
-                        className="m-auto mb-7"
+                        className="m-auto mb-7 cursor-pointer"
                     /></div>
                 <div className="mt-5 w-3/4 break-words">
                     {

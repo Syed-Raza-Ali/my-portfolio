@@ -24,7 +24,8 @@ const About: React.FC = () => {
                         width={380}
                         height={380}
                         className="m-auto mb-7 mt-20 cursor-pointer"
-                    /></div>
+                    />
+                </div>
                 <div className="mt-3  break-words">
                     {
                         userInfo.skills.map(skill => (

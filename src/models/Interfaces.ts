@@ -3,21 +3,21 @@
 export interface UserItems {
     name: string,
     heading: string,
-    about:string,
-    skills : Array<string>
+    about: string,
+    skills: Array<string>
 }
 
 // Interface for Nav Items
- 
+
 interface headerItem {
-    label : string,
-    page : string
+    label: string,
+    page: string
 }
 
 export interface NavItems {
-    home : headerItem,
-    about : headerItem,
-    projects : headerItem
+    home: headerItem,
+    about: headerItem,
+    projects: headerItem
 }
 
 // interface for projects 

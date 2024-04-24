@@ -8,7 +8,7 @@ export const userInfo: UserItems = {
     about: `
     As a web & chatbot developer, I blend JavaScript, TypeScript, and HTML expertise. Specializing in Next.js, Tailwind CSS, and utilizing authentication protocols like Next-auth, I ensure secure user interactions. I'm proficient in integrating with various chatbot platforms like Dialogflow, Kommunicate, and Flowise AI. My database proficiency involves SQL and Sanity for robust data management and SEO-friendly content. A top-tier developer with a versatile skill set, I create memorable and optimized web experiences
         `,
-    skills: ['Web Development', 'Chatbot Development', 'Database Development', 'Web Design', 'Graphic Design', 'SEO Optimization', 'Python Programming',  "API's Endpoints"],
+    skills: ['Web Development', 'Chatbot Development', 'Database Development', 'Web Design', 'Graphic Design', 'SEO Optimization', 'Python Programming', "API's Endpoints"],
 }
 
 export const projects = {

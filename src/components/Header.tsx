@@ -1,9 +1,6 @@
 "use client"
-import { headerItems, userInfo } from "@/constants/constant"
-import { NavItems } from "@/models/Interfaces"
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react"
-import { Link as ScrollLink } from "react-scroll"
 import Link from "next/link";
 
 const Header: React.FC = () => {
@@ -17,18 +14,12 @@ const Header: React.FC = () => {
                     size={30}
                     className="md:hidden "
                     onClick={() => showNavItems(prevState => !prevState)}
-
                 />
-
             </div>
             <div className={`mr-8 md:space-x-6 mt-3 md:mt-0 md:block  ${navItem ? "block" : "hidden "}`}>
                 <Link href='/' className="font-bold ">Home</Link>
-
                 <Link href='/about' className="font-bold">About</Link>
                 <Link href='/projects' className="font-bold">Projects</Link>
-
-
-
             </div>
         </header>
     )

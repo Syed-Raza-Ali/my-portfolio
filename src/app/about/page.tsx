@@ -1,5 +1,6 @@
 import { headerItems, userInfo } from "@/constants/constant"
 import Image from "next/image"
+import Link from "next/link"
 
 const About: React.FC = () => {
     return (
@@ -31,13 +32,16 @@ const About: React.FC = () => {
 
             <div className="flex flex-col justify-center items-center text-center">
                 <div className="bg-transparent transition-transform transform hover:scale-125">
-                    <Image
-                        src="https://i.ibb.co/yBsrKzG/image.png"
-                        alt="Profile"
-                        width={400}
-                        height={400}
-                        className="m-auto mb-7 cursor-pointer"
-                    /></div>
+                    <Link href="/" >
+                        <Image
+                            src="https://i.ibb.co/yBsrKzG/image.png"
+                            alt="Profile"
+                            width={400}
+                            height={400}
+                            className="m-auto mb-7 cursor-pointer"
+                        />
+                    </Link>
+                </div>
                 <div className="mt-5 w-3/4 break-words">
                     {
                         userInfo.skills.map(skill => (

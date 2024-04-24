@@ -1,4 +1,4 @@
-import { headerItems, userInfo, projects } from "@/constants/constant"
+import { headerItems, projects } from "@/constants/constant"
 import type { Projects } from "@/models/Interfaces"
 import Image from "next/image"
 

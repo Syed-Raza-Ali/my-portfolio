@@ -1,8 +1,6 @@
 import Intro from "@/components/intro"
 import Projects from "@/components/Projects";
 import About from "@/components/About";
-import Footer from "@/components/footer";
-import Header from "@/components/Header";
 
 
 const Main: React.FC = () => {
@@ -11,7 +9,7 @@ const Main: React.FC = () => {
             < Intro />
             <About />
             <Projects />
-           
+
         </div>
     )
 }
